@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
 import About from './About.jsx';
-import Demo from './Demo.jsx';
 import Docs from './Docs.jsx';
 import Home from './Home.jsx';
 
@@ -12,7 +11,6 @@ class App extends Component {
     return (
       <Router>
         <div>
-          This is App.
           <nav>
             <ul>
               <li>
@@ -20,9 +18,6 @@ class App extends Component {
               </li>
               <li>
                 <Link to="/about">About</Link>
-              </li>
-              <li>
-                <Link to="/demo">Demo</Link>
               </li>
               <li>
                 <Link to="/docs">Docs</Link>
@@ -36,13 +31,9 @@ class App extends Component {
             <Route path="/about">
               <About />
             </Route>
-            <Route path="/demo">
-              <Demo />
-            </Route>
             <Route path="/docs">
               <Docs />
             </Route>
-            <Demo />
           </Switch>
           <footer>
             <p>We are kafkaQ</p>

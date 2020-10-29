@@ -12,6 +12,9 @@ class Home extends Component {
           <br />
           <a href="https://github.com/oslabs-beta/kafkaQ.git">Medium Page</a>
         </div>
+        <p>kafkaQ is a open source Kafka performance monitoring tool</p>
+        <h2>Demo</h2>
+        <p>Demo gifs</p>
         <img
           src="https://zdnet4.cbsistatic.com/hub/i/r/2018/07/13/93218cd5-cfd9-4b10-bd28-1cc71a7275bc/resize/1200x900/f95fe9cbeb1880feb8c72938ea27de81/kafka-logo.png"
           width="600"
