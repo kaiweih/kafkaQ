@@ -20,10 +20,12 @@ const dimWhite = '#d1d1d2';
 
 const menuStyling = {
   backgroundColor: menuBackgroundColor,
+  marginBottom: '0px',
 };
 
 const linkStyling = {
   color: dimWhite,
+  fontSize: '11px',
 };
 
 class App extends Component<{}> {
@@ -51,35 +53,37 @@ class App extends Component<{}> {
     return (
       <Router>
         <div className="app">
-          <Menu pointing style={menuStyling}>
+          <Menu pointing style={menuStyling} className="menu">
             {this.generateMenuItems()}
           </Menu>
-          <Switch>
-            {/* / */}
-            <Route exact={true} path="/">
-              <Home />
-            </Route>
+          <div className="content">
+            <Switch>
+              {/* / */}
+              <Route exact={true} path="/">
+                <Home />
+              </Route>
 
-            {/* /home */}
-            <Route path="/home">
-              <Home />
-            </Route>
+              {/* /home */}
+              <Route path="/home">
+                <Home />
+              </Route>
 
-            {/* /quick-start */}
-            <Route path="/quick-start">
-              <QuickStart />
-            </Route>
+              {/* /quick-start */}
+              <Route path="/quick-start">
+                <QuickStart />
+              </Route>
 
-            {/* /documentation */}
-            <Route path="/documentation">
-              <Docs />
-            </Route>
+              {/* /documentation */}
+              <Route path="/documentation">
+                <Docs />
+              </Route>
 
-            {/* /meet-the-team */}
-            <Route path="/meet-the-team">
-              <About />
-            </Route>
-          </Switch>
+              {/* /meet-the-team */}
+              <Route path="/meet-the-team">
+                <About />
+              </Route>
+            </Switch>
+          </div>
 
           {/* Footer */}
           <footer className="box-background">
@@ -95,11 +99,21 @@ class App extends Component<{}> {
             </div>
 
             <div className="logos">
-              {/* Gmail */}
+              {/* GitHub repo */}
               <a
                 className="box-background"
-                href="https://twitter.com/kafkaq21gmailc1"
+                href="https://github.com/oslabs-beta/kafkaQ"
               >
+                <img
+                  className="box-background"
+                  src={githubLogo}
+                  width="70"
+                  height="49"
+                />
+              </a>
+
+              {/* Gmail */}
+              <a className="box-background" href="https://gmail.com/">
                 <img
                   className="box-background"
                   src={gmailLogo}
@@ -119,19 +133,6 @@ class App extends Component<{}> {
                   src={twitterLogo}
                   width="40"
                   height="34"
-                />
-              </a>
-
-              {/* GitHub repo */}
-              <a
-                className="box-background"
-                href="https://github.com/oslabs-beta/kafkaQ"
-              >
-                <img
-                  className="box-background"
-                  src={githubLogo}
-                  width="70"
-                  height="49"
                 />
               </a>
 

@@ -22,6 +22,11 @@ $box-background-color: #23252d;
   color: $dim-white;
 }
 
+body {
+  background-color: #3b404c;
+  min-width: 1000px;
+}
+
 .app {
   background-color: $app-background-color;
 }
@@ -32,24 +37,58 @@ $box-background-color: #23252d;
   margin: 20px;
   padding: 20px;
 
-  height: 5000px;
+  // height: 5000px;
 
   border-radius: 4px;
+
+  .cardGroup {
+    // width: 20vw;
+    // height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+.card {
+  width: 20vw !important;
+}
+
+#docPhoto img {
+  margin: 1rem;
 }
 
 .app-background {
   background-color: $app-background-color;
 }
 
-.box-background {
-  background-color: $box-background-color;
+.menu {
+  height: 1vh;
+}
+
+.content {
+  // height: 99vh;
+}
+
+.main-logo {
+  // margin-top: 10vh;
+  height: 70vh;
+  width: 40vw;
 }
 
 .home {
   @include flexCenter();
+  height: 90vh;
+  background-image: url('../icons/bluebckgd.png');
+  background-size: 100% 99vh;
+
+  // margin: 20px;
+  padding: 20px;
+
+  height: 100%;
 
   p {
-    margin: 30px;
+    margin: 2rem;
     color: $bright-white;
     font-size: 20px;
   }
@@ -67,10 +106,15 @@ $box-background-color: #23252d;
   margin-left: 10px;
 }
 
+// .box-background {
+// }
+
 footer {
   @include flexCenter();
 
-  height: 175px;
+  background-color: $box-background-color;
+
+  height: 12rem;
 
   div {
     font-size: 12px;
@@ -84,7 +128,7 @@ footer {
 .footer-title {
   @include flexCenter();
   flex-direction: row;
-  margin: 20px;
+  margin: 1rem;
 
   img {
     position: relative;
@@ -130,34 +174,33 @@ footer {
 //   }
 // }
 
-
 #codeBox {
   background-color: black;
 }
 .token.keywords {
-  color: rgb(204, 137, 204);
+  color: rgb(0, 191, 249);
 }
 .token.string {
-  color: rgb(128, 211, 134);
+  color: rgb(188, 240, 192);
 }
 .token.symbols {
-  color: rgb(154, 212, 206);
+  color: rgb(247, 236, 181);
 }
 .token.comments {
-  color: rgb(178, 178, 178);
+  color: rgb(153, 153, 153);
 }
 .token.equation {
-  color: rgb(161, 161, 240);
+  color: rgb(3, 178, 231);
 }
 .token.names {
-  color: rgb(241, 216, 216);
+  color: rgb(215, 219, 224);
 }
 .token.func {
-  color: rgb(247, 164, 164);
+  color: rgb(135, 175, 244);
 }
 .token.keywordReq {
-  color: rgb(199, 199, 53)
+  color: rgb(134, 174, 242);
 }
 .token.key {
-  color: rgb(91, 170, 235)
+  color: rgb(188, 240, 192);
 }
