@@ -87,16 +87,6 @@ class App extends Component<{}> {
 
           {/* Footer */}
           <footer className="box-background">
-            {/* kafkaQ info */}
-            <div className="box-background footer-title">
-              <img
-                className="box-background"
-                src={kafkaQlogoWithoutLetters}
-                width="50"
-                height="42"
-              />
-              <h3 className="box-background title">kafkaQ</h3>
-            </div>
 
             <div className="logos">
               {/* GitHub repo */}

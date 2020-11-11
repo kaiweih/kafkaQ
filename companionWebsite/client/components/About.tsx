@@ -74,7 +74,7 @@ class About extends Component<{}> {
               </Card.Description>
             </Card.Content>
             <Card.Content extra>
-              <a href="https://www.linkedin.com/" target="_blank">
+              <a href="https://www.linkedin.com/in/ymturan/" target="_blank">
                 <img
                   className="cardicon"
                   src={linkedinIcon}
@@ -99,7 +99,7 @@ class About extends Component<{}> {
             </Card.Content>
             <Card.Content extra>
               <a
-                href="https://www.linkedin.com/in/shreshth-srivastava-1baa1a1b7/"
+                href="www.linkedin.com/in/shreshth-srivastava"
                 target="_blank"
               >
                 <img
@@ -119,5 +119,5 @@ class About extends Component<{}> {
     );
   }
 }
-
+ 
 export default About;

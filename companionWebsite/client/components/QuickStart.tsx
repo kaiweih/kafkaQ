@@ -137,7 +137,7 @@ class QuickStart extends Component<{}> {
                 <span className="token symbols">',</span>
                 <span className="token key"> partition</span>
                 <span className="token symbols">:</span>
-                <span className="token names">0 </span>
+                <span className="token names"> 0 </span>
                 <span className="token symbols">{'}'}]</span>
                 <br></br>
                 <span className="token symbols">{'}'});</span>
