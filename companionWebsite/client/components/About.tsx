@@ -98,10 +98,7 @@ class About extends Component<{}> {
               </Card.Description>
             </Card.Content>
             <Card.Content extra>
-              <a
-                href="www.linkedin.com/in/shreshth-srivastava" 
-                target="_blank"
-              >
+              <a href="https://www.linkedin.com/in/shreshth-srivastava" target="_blank">
                 <img
                   className="cardicon"
                   src={linkedinIcon}
