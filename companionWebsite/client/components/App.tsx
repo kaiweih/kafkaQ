@@ -116,7 +116,7 @@ class App extends Component<{}> {
               <a
                 className="box-background"
                 id="twitter-logo"
-                href="https://twitter.com/kafkaq21gmailc1"
+                href="https://twitter.com/kafkaQ_21"
               >
                 <img
                   className="box-background"
@@ -130,7 +130,7 @@ class App extends Component<{}> {
               <a
                 className="box-background"
                 id="medium-logo"
-                href="https://www.medium.com"
+                href="https://medium.com/@shreshthsrivastava2/introducing-kafkaq-a-real-time-monitoring-tool-for-kafka-applications-f26cbaeccf2"
               >
                 <img
                   className="box-background"

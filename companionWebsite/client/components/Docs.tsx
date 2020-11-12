@@ -207,7 +207,7 @@ class Docs extends Component<{}> {
           Before we get started with this section, you will need to create a
           file called <code className="code"> .env </code> and have it mimic
           this example:
-          <img src={env} />
+          <br/><img src={env} />
         </p>
         <ol>
           <li>
